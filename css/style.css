@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+.navbar{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    height: 7vh;
+}
+
+.btn-nav{
+    float: left;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px 14px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 50px;
+    /* height: auto; */
+    margin-right: 5px;
+}
+.logo h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.links{
+    display: flex;
+    float: right;
+    margin-left: auto;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #3d9ae8;
+    font-weight: 800;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+.first-section{
+    height: 92vh;
+    text-align: center;
+    padding: 12px 10px;
+}
+.btn1-first{
+    border: 2px solid #3d9ae8;
+    background-color: #3d9ae8;
+    color: white;
+    /* padding: 4px 6px; */
+}
+.btn2-first{
+    border: 2px solid #3d9ae8;
+    background-color: white;
+    color: #3d9ae8;
+    /* padding: 4px 6px; */
+}
+.btn{
+    /* padding: 2px 4px; */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    /* border: 2px solid black; */
+}
+
+.box{
+    width: 40vw;
+    position: absolute;
+    bottom: 0px;
+    color: black;
+    /* border: 2px solid white; */
+}
+.box h1{
+    margin: 26px 0px;
+    font-size: 35px;
+}
+.box p{
+    margin: 26px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn1-first{
+    margin: 8px 8px 0px 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+.btn2-first{
+    margin: 8px 8px 0px 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
